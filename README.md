@@ -12,3 +12,5 @@ The code in this repository is mostly based on [this](https://sourceforge.net/pr
 This repository uses google test to do a quick validation of all the CRC classes using the standard "123456789" check.
 
 The CRC table is always calculated in this implementation, if you would prefer not to store the crc table feel free to clone and comment out or remove that portion of the code. 
+
+CRCHelper.hpp does not use the STL so should work with most C++ compilers. To use Google Test and the current implementations in the repo you need a compiler supporting at least C++11.

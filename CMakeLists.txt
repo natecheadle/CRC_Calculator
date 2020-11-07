@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(CRCLib)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(${PROJECT_NAME} STATIC "src/CCITTFalse16BitCRC.cpp" "src/XModem16BitCRC.cpp" "src/ICRC.cpp" "src/Modbus16BitCRC.cpp" "src/CRC32Bit.cpp" "src/CRC8Bit.cpp" "src/BZip32BitCRC.cpp")
