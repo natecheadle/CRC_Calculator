@@ -2,7 +2,7 @@
 #include "ICRC.h"
 #include "../src/CRCHelper.hpp"
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     class BZip32BitCRC : public ICRC {
     public:
         BZip32BitCRC();

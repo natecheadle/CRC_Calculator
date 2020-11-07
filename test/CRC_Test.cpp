@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 #include <ICRC.h>
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
 
 	class CRCParameterizedTestSuite : public testing::TestWithParam<CRC_Type> {};
 

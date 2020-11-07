@@ -2,7 +2,7 @@
 #include "ICRC.h"
 #include "../src/CRCHelper.hpp"
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     class CRC8Bit : public ICRC {
     public:
         CRC8Bit();

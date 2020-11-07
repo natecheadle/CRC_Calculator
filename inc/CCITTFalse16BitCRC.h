@@ -2,7 +2,7 @@
 #include "ICRC.h"
 #include "../src/CRCHelper.hpp"
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     class CCITTFalse16BitCRC : public ICRC{
     public:
         CCITTFalse16BitCRC();

@@ -6,7 +6,7 @@
 #include "../inc/CRC8Bit.h"
 #include "../inc/Modbus16BitCRC.h"
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     std::unique_ptr<ICRC> ICRC::Factory(CRC_Type type)
     {
         switch (type)

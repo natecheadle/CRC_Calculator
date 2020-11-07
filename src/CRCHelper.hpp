@@ -1,6 +1,6 @@
 #pragma once
 
-namespace DriveCommLib {   
+namespace CRC_Calculator {   
     template<class T>
     class CRCHelper
     {

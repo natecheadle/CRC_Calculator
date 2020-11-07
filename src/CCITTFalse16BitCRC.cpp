@@ -2,7 +2,7 @@
 
 #include <cstring>
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
      CCITTFalse16BitCRC::CCITTFalse16BitCRC() : 
      ICRC(CRC_Type::CCITFalse16Bit),
      m_Helper(CRCHelper<unsigned short>(Polynomial, InitialValue, XorOut, ReflectData))

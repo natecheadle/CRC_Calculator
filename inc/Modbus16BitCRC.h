@@ -2,7 +2,7 @@
 #include "ICRC.h"
 #include "../src/CRCHelper.hpp"
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     class Modbus16BitCRC : public ICRC {
     public:
         Modbus16BitCRC();

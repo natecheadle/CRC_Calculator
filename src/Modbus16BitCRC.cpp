@@ -2,7 +2,7 @@
 
 #include <cstring>
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     Modbus16BitCRC::Modbus16BitCRC() :
         ICRC(CRC_Type::Modbus16Bit),
         m_Helper(CRCHelper<unsigned short>(Polynomial, InitialValue, XorOut, ReflectData))

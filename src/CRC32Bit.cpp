@@ -2,7 +2,7 @@
 
 #include <cstring>
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     CRC32Bit::CRC32Bit() :
         ICRC(CRC_Type::CRC32Bit),
         m_Helper(CRCHelper<unsigned int>(Polynomial, InitialValue, XorOut, ReflectData))

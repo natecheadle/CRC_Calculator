@@ -2,7 +2,7 @@
 #include <vector>
 #include <memory>
 
-namespace DriveCommLib {
+namespace CRC_Calculator {
     enum class CRC_Method
     {
         BitWise,
